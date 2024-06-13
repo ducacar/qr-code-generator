@@ -34,21 +34,15 @@ cd ../backend
 npm install
 Create a .env file in the root of the backend directory and configure environment variables as needed (e.g., PORT, NODE_ENV, etc.).
 
-Start the backend server:
-
-bash
-Copy code
 # Make sure you are in the backend directory
 cd ../backend
-npm start
-Start the frontend development server:
+node index.js
 
-bash
-Copy code
 # Make sure you are in the frontend directory
+open new terminal
 cd ../frontend
-npm start
-Open your browser and navigate to http://localhost:3000 to view the application.
+npm run dev
+Open your browser and navigate to (http://localhost:5173/) to view the application.
 
 Usage
 Enter a valid URL in the input field.
